@@ -1,0 +1,149 @@
+.logo {
+  display: flex;
+  width: 300px;
+  height: 300px;
+}
+
+.logo:hover {
+  opacity: 0.8;
+  width: 400px;
+  height: 400px;
+  transition: width 0.2s ease, height 0.2s ease;
+}
+
+.box {
+  display: flex;
+  justify-content: center;
+}
+
+.h1Estilo {
+  display: block;
+  text-align: center;
+  color: white;
+  font-size: 46px;
+}
+
+.h2Estilo {
+  display: block;
+  text-align: center;
+  color: lightblue;
+  font-size: 40px;
+}
+
+.h1Estilo:hover {
+  opacity: 0.8;
+  font-size: 60px;
+  transition: 0.4s ease-in-out;
+}
+
+.pEstilo {
+  text-align: center;
+  color: lightgray;
+  font-size: 24px;
+}
+
+.h3Estilo {
+  text-align: center;
+  color: lightblue;
+  font-size: 34px;
+}
+
+.icons {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, 230px);
+  gap: 40px;
+  padding: 10px;
+  padding-bottom: 40px;
+  justify-content: center;
+  justify-items: center;
+  max-width: 1000px;
+  margin: 0 auto;
+  color: white;
+}
+
+.usb:hover {
+  opacity: 0.8;
+  transform: scale(2);
+  transition: transform 0.2s ease;
+}
+
+.mother:hover {
+  opacity: 0.8;
+  transform: scale(2);
+  transition: transform 0.2s ease;
+}
+
+.battery:hover {
+  opacity: 0.8;
+  transform: scale(2);
+  transition: transform 0.2s ease;
+}
+
+.cpu:hover {
+  opacity: 0.8;
+  transform: scale(2);
+  transition: transform 0.2s ease;
+}
+
+.rasp:hover {
+  opacity: 0.8;
+  transform: scale(2);
+  transition: transform 0.2s ease;
+}
+
+.titulos {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(230px, 1fr));
+  gap: 40px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+@media (min-width: 768px) {
+  .logo {
+    width: 400px;
+    height: 400px;
+  }
+
+  .icons,
+  .titulos {
+    grid-template-columns: repeat(auto-fill, minmax(230px, 1fr));
+  }
+}
+
+@media (max-width: 767px) {
+  .logo {
+    width: 200px;
+    height: 200px;
+  }
+
+  .icons,
+  .titulos {
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+  }
+
+  .h1Estilo {
+    font-size: 36px;
+  }
+
+  .h2Estilo {
+    font-size: 30px;
+  }
+
+  .pEstilo {
+    font-size: 18px;
+  }
+
+  .h3Estilo {
+    font-size: 24px;
+  }
+}
+
+.contenido {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}

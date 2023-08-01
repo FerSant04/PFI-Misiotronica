@@ -1,0 +1,22 @@
+.footer {
+  background-color: rgb(64, 170, 196);
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 18px;
+  padding: 1px;
+  position: absolute;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  text-align: center;
+}
+
+.footerContent {
+  transition: opacity 0.3s ease-in-out;
+  
+}
+
+.footer:hover .footerContent {
+  opacity: 0.4;
+}

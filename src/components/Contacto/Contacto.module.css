@@ -1,0 +1,44 @@
+.contenedor {
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 40px;
+}
+
+.contenedor h1 {
+  text-align: center;
+  color: white;
+}
+
+.formulario {
+  display: inline-grid;
+  grid-template-columns: repeat(auto-fill, 230px);
+  gap: 40px;
+  padding: 20px;
+  justify-content: center;
+  background-color: rgb(220, 220, 220);
+  border-radius: 20px;
+}
+
+.cuadro:hover {
+  opacity: 0.4;
+}
+
+.box:hover {
+  opacity: 0.4;
+}
+
+.container:hover {
+  opacity: 0.4;
+}
+
+.caja:hover {
+  opacity: 0.4;
+}
+
+@media (max-width: 768px) {
+  .formulario {
+    grid-template-columns: repeat(2, minmax(200px, 1fr));
+    gap: 20px;
+  }
+}

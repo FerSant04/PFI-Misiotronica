@@ -1,0 +1,33 @@
+.face {
+  display: flex;
+  color: gray;
+  justify-content: center;
+  padding-top: 40px;
+}
+
+.face:hover {
+  opacity: 0.8;
+  transform: scale(1.2);
+  transition: transform 0.2s ease;
+  color: red;
+}
+
+.textos {
+  display: block;
+  text-align: center;
+}
+
+.titulo {
+  color: gray;
+  font-size: 60px;
+}
+
+.sub {
+  color: gray;
+  font-size: 32px;
+}
+
+.parrafo {
+  color: gray;
+  font-size: 18px;
+}

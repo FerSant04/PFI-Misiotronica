@@ -1,0 +1,12 @@
+.titulo {
+  font-size: 2.5em;
+  max-width: 100%;
+  text-align: center;
+  color: white;
+}
+
+@media (max-width: 768px) {
+  .title {
+    font-size: 2em;
+  }
+}

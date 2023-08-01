@@ -1,0 +1,31 @@
+.articuloImagen {
+  border-radius: 20px;
+  width: 200px;
+  height: 200px;
+  transition: width 0.2s ease, height 0.2s ease;
+  
+}
+
+.articuloCard:hover .articuloImagen {
+  width: 300px;
+  height: 300px;
+}
+
+.articuloCard {
+  list-style: none;
+  font: 10px;
+  text-align: center;
+}
+
+.articuloCard:hover {
+  opacity: 0.9;
+}
+
+.link {
+  text-decoration: none;
+  color: black;
+}
+
+.titulo {
+  color: white;
+}

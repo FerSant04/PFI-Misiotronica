@@ -1,0 +1,64 @@
+.articulosGrilla {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, 230px);
+  gap: 40px;
+  padding: 40px;
+  justify-content: center;
+  justify-items: center;
+  max-width: 1800px;
+  margin: 0 auto;
+
+}
+
+.botones {
+  display: flex;
+  gap: 20px;
+  padding-top: 20px;
+  justify-content: center;
+}
+
+button {
+  padding: 8px 12px;
+  background-color: #f0f0f0;
+  border: 1px solid #ccc;
+  cursor: pointer;
+}
+
+button:hover {
+  opacity: 0.9;
+}
+
+@media screen and (max-width: 768px) {
+  .articulosGrillaContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 20px;
+  }
+
+  .botones {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: flex-start;
+    margin-bottom: 10px;
+  }
+
+  button {
+    padding: 8px 12px;
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    cursor: pointer;
+  }
+
+  .articulosGrilla {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 230px);
+    gap: 40px;
+    justify-content: center;
+    justify-items: center;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+}

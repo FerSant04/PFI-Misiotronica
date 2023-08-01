@@ -1,0 +1,134 @@
+.detalles {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.p {
+  color: white;
+}
+
+.tamaño {
+  max-width: 400px;
+  width: 100%;
+  margin: 15px;
+  font-size: 20px;
+}
+
+.boton {
+  border: none;
+  background: transparent;
+  outline: none;
+  display: block;
+  color: wheat;
+  font-size: 14px;
+}
+
+.boton:hover {
+  opacity: 0.4;
+}
+
+.foto {
+  max-width: 400px;
+  width: 80%;
+  margin: 15px;
+  border-radius: 20px;
+}
+
+.boxBuy {
+  background: rgb(43, 43, 250);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5px;
+  border-radius: 10px;
+  width: 280px;
+  height: 30px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+.buy {
+  border: none;
+  background: transparent;
+  outline: none;
+  color: white;
+  font-size: 16px;
+}
+
+.boxBuy:hover {
+  transition: 0.3s ease;
+  background: rgb(1, 1, 131);
+}
+
+.cajaGrande {
+  display: flex;
+  align-items: center;
+}
+
+.boxCart {
+  background: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5px;
+  border-radius: 10px;
+  width: 100px;
+  height: 30px;
+  margin-top: 7px;
+
+}
+
+.cont {
+  color: white;
+  font-size: 30px;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 18px;
+}
+
+.cart {
+  border: none;
+  background: transparent;
+  outline: none;
+  color: rgb(43, 43, 250);
+  font-size: 16px;
+}
+
+.boxCart:hover {
+  transition: 0.3s ease;
+  background: rgb(194, 194, 214);
+}
+
+@media (max-width: 768px) {
+  .tamaño,
+  .foto {
+    max-width: 100%;
+  }
+  .tamaño {
+    font-size: 16px;
+  }
+  .boxBuy,
+  .boxCart {
+    width: 100%;
+  }
+
+  .boxBuy,
+  .boxCart,
+  .boxBuy:hover,
+  .boxCart:hover {
+    height: 40px;
+  }
+  .boxCart {
+    width: 25px;
+    height: 25px;
+    margin-top: 5px;
+    margin-right: 5px;
+  }
+
+  .cont {
+    font-size: 20px;
+  }
+}

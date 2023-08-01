@@ -1,0 +1,17 @@
+.articulo .art {
+    list-style: none;
+    font-size: 10px;
+}
+
+.articulo .imagen {
+    border-radius: 10px;
+    background-color: azure;
+}
+
+.articulo .formato {
+    display: grid;
+    grid-template-columns: repeat(auto-fill), 230px;
+    gap: 40px;
+    padding: 40px;
+    justify-content: center;
+}
