@@ -21,7 +21,7 @@ const Tarjeta = ({ titulo, descripcion }) => {
     <div className={styles.Tarjeta} style={cuadroStyle}>
       <div onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave} >
         <h1 className={styles.title}>{titulo}</h1>
-        <p className={styles.desc}>{descripcion}</p>
+        <ul className={styles.desc}>{descripcion}</ul>
       </div>
     </div>
   );
