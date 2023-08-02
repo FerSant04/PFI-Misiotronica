@@ -36,6 +36,40 @@
   opacity: 0.4;
 }
 
+.boxFb,
+.boxGit {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+}
+
+.fb {
+  width: 100px;
+  height: 100px;
+}
+
+.contRedes {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  gap: 20px;
+}
+
+.git {
+  color: white;
+}
+
+.h3 {
+  color: white;
+  text-align: center;
+}
+
+.fb:hover, .git:hover {
+  opacity: 0.8;
+}
+
+
 @media (max-width: 768px) {
   .formulario {
     grid-template-columns: repeat(2, minmax(200px, 1fr));

@@ -1,7 +1,7 @@
 .navbar {
   background-color: rgb(64, 170, 196);
   color: #fff;
-  padding: 10px;
+  padding: 1px 10px;
   display: flex;
   justify-content: center;
 }
@@ -16,6 +16,8 @@
 
 .nav-item {
   margin-right: 15px;
+  display: flex;
+  align-items: center;
 }
 
 .nav-item:last-child {
@@ -27,10 +29,17 @@
   text-decoration: none;
   padding: 5px 10px;
   font-size: 18px;
+  display: flex;
+  align-items: center;
 }
 .nav-item a:hover {
   background-color: gray;
   border-radius: 10px;
+}
+
+.logo {
+  width: 80px;
+  height: 80px;
 }
 
 @media (min-width: 768px) {
