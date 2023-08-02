@@ -12,10 +12,16 @@ const Contacto = () => {
   return (
     <div className={styles.contenedor}>
       <h1>Contacto</h1>
-      <div className={styles.formulario}>
+      <form
+        className={styles.formulario}
+        action="https://formsubmit.co/santisteban.fernando04@gmail.com"
+        method="POST"
+      >
         <div className={styles.cuadro}>
           <p>Nombre</p>
           <input
+            type="text"
+            name="name"
             className={styles.texto}
             onChange={(e) => setForm(e.target.value)}
           />
@@ -23,6 +29,8 @@ const Contacto = () => {
         <div className={styles.box}>
           <p>Teléfono</p>
           <input
+            type="text"
+            name="name"
             className={styles.texto}
             onChange={(e) => setTel(e.target.value)}
           />
@@ -30,6 +38,8 @@ const Contacto = () => {
         <div className={styles.container}>
           <p>Correo</p>
           <input
+            type="email"
+            name="email"
             className={styles.texto}
             onChange={(e) => setEmail(e.target.value)}
           />
@@ -37,6 +47,8 @@ const Contacto = () => {
         <div className={styles.caja}>
           <p>Dirección</p>
           <input
+            type="text"
+            name="name"
             className={styles.texto}
             onChange={(e) => setAdress(e.target.value)}
           />
@@ -58,7 +70,7 @@ const Contacto = () => {
         >
           Enviar
         </button>
-      </div>
+      </form>
       <h3 className={styles.h3}>Siguenos en nuestras redes</h3>
       <div className={styles.contRedes}>
         <div className={styles.boxFb}>
