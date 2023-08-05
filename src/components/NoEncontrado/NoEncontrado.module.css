@@ -1,6 +1,6 @@
 .face {
   display: flex;
-  color: gray;
+  color: darkgray;
   justify-content: center;
   padding-top: 40px;
 }
@@ -18,16 +18,16 @@
 }
 
 .titulo {
-  color: gray;
+  color: rgb(214, 214, 214);
   font-size: 60px;
 }
 
 .sub {
-  color: gray;
+  color: rgb(214, 214, 214);
   font-size: 32px;
 }
 
 .parrafo {
-  color: gray;
-  font-size: 18px;
+  color: rgb(214, 214, 214);
+  font-size: 22px;
 }

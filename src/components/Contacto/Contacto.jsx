@@ -11,12 +11,13 @@ const Contacto = () => {
 
   return (
     <div className={styles.contenedor}>
-      <h1>Contacto</h1>
+      <h1 className={styles.h1}>Contacto</h1>
       <form
         className={styles.formulario}
         action="https://formsubmit.co/santisteban.fernando04@gmail.com"
         method="POST"
       >
+        <input type="hidden" name="_captcha" value="false" />
         <div className={styles.cuadro}>
           <p>Nombre</p>
           <input
@@ -54,6 +55,7 @@ const Contacto = () => {
           />
         </div>
         <button
+          className={styles.boton}
           onClick={() => {
             alert(
               "Nombre: " +

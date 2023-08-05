@@ -10,29 +10,40 @@
 
 .tamaño {
   max-width: 400px;
-  width: 100%;
   margin: 15px;
   font-size: 20px;
 }
 
 .boton {
-  border: none;
-  background: transparent;
+  background-color: rgb(64, 170, 196);
+  border-radius: 10px;
   outline: none;
-  display: block;
-  color: wheat;
-  font-size: 14px;
+  display: flex;
+  justify-content: center;
+  color: white;
+  font-size: 26px;
+  margin-top: 10px;
 }
 
 .boton:hover {
-  opacity: 0.4;
+  background: rgb(61, 153, 189);
+  border-radius: 10px;
+  transition: 0.4s ease;
 }
 
 .foto {
-  max-width: 400px;
-  width: 80%;
+  display: flex;
+  justify-content: center;
+  width: 350px;
+  height: 350px;
   margin: 15px;
   border-radius: 20px;
+}
+
+.foto:hover {
+  width: 420px;
+  height: 420px;
+  transition: width 0.5s ease, height 0.5s ease;
 }
 
 .boxBuy {
@@ -76,7 +87,6 @@
   width: 100px;
   height: 30px;
   margin-top: 7px;
-
 }
 
 .cont {
@@ -120,12 +130,6 @@
   .boxBuy:hover,
   .boxCart:hover {
     height: 40px;
-  }
-  .boxCart {
-    width: 25px;
-    height: 25px;
-    margin-top: 5px;
-    margin-right: 5px;
   }
 
   .cont {

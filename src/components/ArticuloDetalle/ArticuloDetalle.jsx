@@ -77,18 +77,18 @@ const ArticuloDetalle = () => {
         </div>
         <div className={styles.cajaGrande}>
           <div className={styles.boxCart}>
-            <button className={styles.cart} onClick={sumar}>
-              +
-            </button>
-          </div>
-          <span className={styles.cont}>{contar}</span>
-          <div className={styles.boxCart}>
             <button
               disabled={contar <= 1}
               className={styles.cart}
               onClick={restar}
             >
               -
+            </button>
+          </div>
+          <span className={styles.cont}>{contar}</span>
+          <div className={styles.boxCart}>
+            <button className={styles.cart} onClick={sumar}>
+              +
             </button>
           </div>
         </div>
