@@ -8,12 +8,12 @@ const About = () => {
     {
       titulo: "Visión",
       descripcion:
-        "Buscamos ser la empresa líder en comercialización de productos electrónicos partiendo con nuestro compromiso con cada cliente brindandoles las soluciones que están buscando y logrando la excelencia en nuestro servicio garantizadole una adecuada atención y calidad asegurada en nuestros productos.",
+        "Buscamos ser la empresa líder en la comercialización de productos electrónicos, partiendo de nuestro compromiso con cada cliente, brindándoles las soluciones que están buscando y logrando la excelencia en nuestro servicio, garantizándoles una adecuada atención y calidad asegurada en nuestros productos.",
     },
     {
       titulo: "Misión",
       descripcion:
-        "Somos una empresa genuina que busca la consolidación de nuestro prestigio apuntando a la excelencia en nuestros productos y la confianza en nuestro personal. Brindamos el servicio adecuado para cumplir las expectativas de nuestra clientela y superarlas con éxito. ¿Buscas calidad y seguridad garantizada? Encuentra Misiotrónica.",
+        "Somos una empresa genuina que busca la consolidación de nuestro prestigio, apuntando a la excelencia en nuestros productos y la confianza en nuestro personal. Brindamos el servicio adecuado para cumplir las expectativas de nuestra clientela y superarlas con éxito. ¿Buscas calidad y seguridad garantizada? ¡Encuentra Misiotrónica!",
     },
     {
       titulo: "Valores",
