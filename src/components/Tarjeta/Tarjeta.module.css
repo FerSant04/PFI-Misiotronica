@@ -14,4 +14,8 @@
 .desc {
   text-align: left;
   color: lightgray;
+  justify-content: center;
+  padding-left: 4px;
+  font-weight: bold;
+  margin-right: 14px;
 }

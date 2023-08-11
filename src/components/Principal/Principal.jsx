@@ -5,6 +5,7 @@ import { GiBatteryPackAlt } from "react-icons/gi";
 import { FaRaspberryPi } from "react-icons/fa";
 
 const Home = () => {
+
   return (
     <div className={styles.contenido}>
       <div className={styles.box}>
@@ -23,11 +24,21 @@ const Home = () => {
       <h3 className={styles.h3Estilo}>Nos especializamos en:</h3>
       <div>
         <ul className={styles.icons}>
-          <BsUsbDrive className={styles.usb} size={60} />
-          <BsMotherboard className={styles.mother} size={60} />
-          <GiBatteryPackAlt className={styles.battery} size={60} />
-          <BsCpu size={60} className={styles.cpu} />
-          <FaRaspberryPi size={60} className={styles.rasp} />
+          <a href="/tienda/">
+            <BsUsbDrive className={styles.usb} size={60} />
+          </a>
+          <a href="/tienda/">
+            <BsMotherboard className={styles.mother} size={60} />
+          </a>
+          <a href="/tienda/">
+            <GiBatteryPackAlt className={styles.battery} size={60} />
+          </a>
+          <a href="/tienda/">
+            <BsCpu size={60} className={styles.cpu} />
+          </a>
+          <a href="/tienda/">
+            <FaRaspberryPi size={60} className={styles.rasp} />
+          </a>
         </ul>
       </div>
       <div className={styles.titulos}>

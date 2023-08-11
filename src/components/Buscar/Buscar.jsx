@@ -19,6 +19,7 @@ const Buscar = () => {
           value={texto}
           className={styles.texto}
           type="text"
+          placeholder="Ingrese la ID del producto"
         />
         <button className={styles.boton} type="submit">
           <FaSearch size={20} />

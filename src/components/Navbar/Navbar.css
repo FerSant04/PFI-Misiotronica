@@ -25,7 +25,8 @@
 }
 
 .nav-item a {
-  color: #fff;
+  color: white;
+  font-weight: bold;
   text-decoration: none;
   padding: 5px 10px;
   font-size: 18px;
@@ -33,7 +34,7 @@
   align-items: center;
 }
 .nav-item a:hover {
-  background-color: gray;
+  background-color: rgb(61, 153, 189);
   border-radius: 10px;
 }
 
@@ -64,7 +65,7 @@
 }
 
 .menu-icon:hover {
-  background-color: gray;
+  background-color: rgb(61, 153, 189);
   border-radius: 10px;
 }
 
